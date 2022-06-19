@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  MyFirstApplication
+//  FirstApplication
 //
-//  Created by 이형진 on 2022/05/31.
+//  Created by 이형진 on 2022/06/19.
 //
 
 import UIKit

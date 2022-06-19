@@ -1,14 +1,14 @@
 //
-//  MyFirstApplicationTests.swift
-//  MyFirstApplicationTests
+//  FirstApplicationTests.swift
+//  FirstApplicationTests
 //
-//  Created by 이형진 on 2022/05/31.
+//  Created by 이형진 on 2022/06/19.
 //
 
 import XCTest
-@testable import MyFirstApplication
+@testable import FirstApplication
 
-class MyFirstApplicationTests: XCTestCase {
+class FirstApplicationTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

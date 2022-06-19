@@ -1,13 +1,13 @@
 //
-//  MyFirstApplicationUITests.swift
-//  MyFirstApplicationUITests
+//  FirstApplicationUITests.swift
+//  FirstApplicationUITests
 //
-//  Created by 이형진 on 2022/05/31.
+//  Created by 이형진 on 2022/06/19.
 //
 
 import XCTest
 
-class MyFirstApplicationUITests: XCTestCase {
+class FirstApplicationUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
