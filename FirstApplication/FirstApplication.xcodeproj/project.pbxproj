@@ -17,6 +17,7 @@
 		871BFBFE285EBE3D00D03D5A /* FirstApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871BFBFD285EBE3D00D03D5A /* FirstApplicationUITests.swift */; };
 		871BFC00285EBE3D00D03D5A /* FirstApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871BFBFF285EBE3D00D03D5A /* FirstApplicationUITestsLaunchTests.swift */; };
 		871BFC0D285EBE8800D03D5A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871BFC0C285EBE8800D03D5A /* SecondViewController.swift */; };
+		871BFC0F28601CDA00D03D5A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871BFC0E28601CDA00D03D5A /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		871BFBFD285EBE3D00D03D5A /* FirstApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstApplicationUITests.swift; sourceTree = "<group>"; };
 		871BFBFF285EBE3D00D03D5A /* FirstApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		871BFC0C285EBE8800D03D5A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		871BFC0E28601CDA00D03D5A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		871BFBD0285EBE3A00D03D5A = {
 			isa = PBXGroup;
 			children = (
+				871BFC0E28601CDA00D03D5A /* ThirdViewController.swift */,
 				871BFBDB285EBE3B00D03D5A /* FirstApplication */,
 				871BFBF2285EBE3D00D03D5A /* FirstApplicationTests */,
 				871BFBFC285EBE3D00D03D5A /* FirstApplicationUITests */,
@@ -263,6 +266,7 @@
 			files = (
 				871BFC0D285EBE8800D03D5A /* SecondViewController.swift in Sources */,
 				871BFBE1285EBE3B00D03D5A /* ViewController.swift in Sources */,
+				871BFC0F28601CDA00D03D5A /* ThirdViewController.swift in Sources */,
 				871BFBDD285EBE3B00D03D5A /* AppDelegate.swift in Sources */,
 				871BFBDF285EBE3B00D03D5A /* SceneDelegate.swift in Sources */,
 			);
