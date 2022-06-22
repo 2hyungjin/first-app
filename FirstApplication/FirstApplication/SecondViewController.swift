@@ -67,6 +67,13 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
         self.navigationController?.popViewController(animated: true)
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let nextViewController : DetailViewController = segue.destination as? DetailViewController else{return}
+        guard let cell : UITableViewCell = sender as? UITableViewCell else {return}
+        
+        nextViewController.text = cell.textLabel?.text
+    }
+
     
     
 }
