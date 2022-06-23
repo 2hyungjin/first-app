@@ -20,6 +20,7 @@
 		871BFC0F28601CDA00D03D5A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871BFC0E28601CDA00D03D5A /* ThirdViewController.swift */; };
 		8756318628619E7A0096DE09 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8756318528619E7A0096DE09 /* CustomTableViewCell.swift */; };
 		875631882862A01C0096DE09 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875631872862A01C0096DE09 /* DetailViewController.swift */; };
+		8756318A286428C90096DE09 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87563189286428C90096DE09 /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		871BFC0E28601CDA00D03D5A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		8756318528619E7A0096DE09 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		875631872862A01C0096DE09 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		87563189286428C90096DE09 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				871BFBDE285EBE3B00D03D5A /* SceneDelegate.swift */,
 				871BFBE0285EBE3B00D03D5A /* ViewController.swift */,
 				871BFBE2285EBE3B00D03D5A /* Main.storyboard */,
+				87563189286428C90096DE09 /* CollectionViewController.swift */,
 				875631872862A01C0096DE09 /* DetailViewController.swift */,
 				8756318528619E7A0096DE09 /* CustomTableViewCell.swift */,
 				871BFC0C285EBE8800D03D5A /* SecondViewController.swift */,
@@ -274,6 +277,7 @@
 				871BFC0D285EBE8800D03D5A /* SecondViewController.swift in Sources */,
 				871BFBE1285EBE3B00D03D5A /* ViewController.swift in Sources */,
 				871BFC0F28601CDA00D03D5A /* ThirdViewController.swift in Sources */,
+				8756318A286428C90096DE09 /* CollectionViewController.swift in Sources */,
 				871BFBDD285EBE3B00D03D5A /* AppDelegate.swift in Sources */,
 				871BFBDF285EBE3B00D03D5A /* SceneDelegate.swift in Sources */,
 				875631882862A01C0096DE09 /* DetailViewController.swift in Sources */,

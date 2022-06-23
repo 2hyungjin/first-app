@@ -63,9 +63,6 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
         super.viewDidLoad()
         
     }
-    @IBAction func popNaviagion(){
-        self.navigationController?.popViewController(animated: true)
-    }
     
     @IBAction func touchUpRefeshButton(_ sender: UIBarButtonItem){
         array.removeAll()
@@ -73,6 +70,17 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        switch segue.identifier{
+        case "detail":
+            (segue.destination as? DetailViewController)?.text = (sender as? UITableViewCell)?.textLabel?.text
+
+        case "collection":
+            (segue.destination as? CollectionViewController)?.array.append(contentsOf: korean)
+
+        default:return
+            
+        }
+        
         guard let nextViewController : DetailViewController = segue.destination as? DetailViewController else{return}
         guard let cell : UITableViewCell = sender as? UITableViewCell else {return}
         
