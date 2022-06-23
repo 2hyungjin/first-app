@@ -9,13 +9,18 @@ import UIKit
 
 class CollectionViewController: UIViewController,UICollectionViewDataSource {
     var array:[String]=[]
-
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return array.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell:UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+        guard let cell:CollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? CollectionViewCell else{
+            return UICollectionViewCell()
+        }
+        cell.indexLabel.text = String(indexPath.item)
+        cell.contentLabel.text = array[indexPath.item]
         return cell
     }
     
@@ -26,5 +31,9 @@ class CollectionViewController: UIViewController,UICollectionViewDataSource {
         print(array)
     }
     
-
+    @IBAction func touchUpAddButton(_ sender: UIButton){
+        array.append("A")
+        collectionView.reloadData()
+        
+    }
 }
