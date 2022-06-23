@@ -67,6 +67,11 @@ class SecondViewController: UIViewController,UITableViewDelegate,UITableViewData
         self.navigationController?.popViewController(animated: true)
     }
     
+    @IBAction func touchUpRefeshButton(_ sender: UIBarButtonItem){
+        array.removeAll()
+        self.tabelView.reloadSections(IndexSet(2...2), with: UITableView.RowAnimation.automatic)
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard let nextViewController : DetailViewController = segue.destination as? DetailViewController else{return}
         guard let cell : UITableViewCell = sender as? UITableViewCell else {return}
