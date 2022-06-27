@@ -40,7 +40,7 @@ class ThirdViewController: UIViewController {
     }
     func showAlert(){
         let alertController:UIAlertController = UIAlertController(title: "Alert", message: "Message", preferredStyle: .alert)
-        let cancelAction:UIAlertAction = UIAlertAction(title: "cancle", style: .cancel, handler: nil)
+        let cancelAction:UIAlertAction = UIAlertAction(title: "cancel", style: .cancel, handler: nil)
         let defaultAction:UIAlertAction = UIAlertAction(title: "default", style: .default, handler: {_ in print("click default")})
         
         alertController.addAction(cancelAction)
