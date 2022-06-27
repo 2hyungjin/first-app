@@ -78,6 +78,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="012-qc-TWs">
+                                <rect key="frame" x="160" y="405.5" width="94" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Show Alert"/>
+                                <connections>
+                                    <action selector="touchUpShowAlertButton" destination="2ZU-hz-sIz" eventType="touchUpInside" id="5T3-LW-mTN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Tt6-mG-bgC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -89,7 +97,9 @@
                             <constraint firstItem="zzZ-46-nnk" firstAttribute="centerX" secondItem="Ub7-kr-gR6" secondAttribute="centerX" id="QaO-Xw-ppP"/>
                             <constraint firstItem="Tt6-mG-bgC" firstAttribute="bottom" secondItem="ilT-jp-O2W" secondAttribute="bottom" constant="10" id="Qsy-q9-K2g"/>
                             <constraint firstItem="ilT-jp-O2W" firstAttribute="centerX" secondItem="Ub7-kr-gR6" secondAttribute="centerX" id="lKh-rm-0Le"/>
+                            <constraint firstItem="012-qc-TWs" firstAttribute="centerY" secondItem="Ub7-kr-gR6" secondAttribute="centerY" id="pE0-xi-75h"/>
                             <constraint firstItem="Tt6-mG-bgC" firstAttribute="trailing" secondItem="jbX-FR-o3a" secondAttribute="trailing" constant="10" id="rBD-d9-mQe"/>
+                            <constraint firstItem="012-qc-TWs" firstAttribute="centerX" secondItem="Ub7-kr-gR6" secondAttribute="centerX" id="xnK-k3-in0"/>
                         </constraints>
                     </view>
                     <connections>
